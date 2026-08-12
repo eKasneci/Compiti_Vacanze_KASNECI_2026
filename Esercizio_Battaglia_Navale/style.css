@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1d2a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background-color: #102f43;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #b8d8e8;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#INFO {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#INFO p {
+    background-color: #163e55;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+#msg {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 4px;
+    width: min(90vw, 600px);
+    margin: 0 auto 25px;
+}
+
+.cella {
+    aspect-ratio: 1;
+    background-color: #1b6385;
+    border: 1px solid #4ca3c7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cella:hover {
+    background-color: #2784aa;
+}
+
+#nuova-partita {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1b8fbd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#nuova-partita:hover {
+    background-color: #25a9dc;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    color: #8ba9b8;
+}
+
+.cella.acqua {
+    background-color: #6fa8c4;
+    cursor: default;
+}
+
+.cella.colpito {
+    background-color: #d9534f;
+    cursor: default;
+}
+
+.cella.cliccata {
+    pointer-events: none;
+}

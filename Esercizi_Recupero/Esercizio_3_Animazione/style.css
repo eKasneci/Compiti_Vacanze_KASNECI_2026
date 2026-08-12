@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#messaggio {
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contenitore {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.quadrato {
+    width: 60px;
+    height: 60px;
+    background-color: #ffc107;
+    border: 1px solid black;
+}
+
+.blu {
+    background-color: #0d3b66;
+}

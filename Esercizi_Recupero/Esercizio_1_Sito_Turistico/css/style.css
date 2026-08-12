@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Quicksand:wght@500;600;700&display=swap');
+
+:root {
+    --primary-ocean: #0d3b66;
+    --teal-sea: #00a896;
+    --sunny-gold: #f4a261;
+    --coral-accent: #e76f51;
+    --bg-sand: #f8f9fa;
+    --text-dark: #1e293b;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--bg-sand) !important;
+    color: var(--text-dark) !important;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--primary-ocean) !important;
+}
+
+p,
+span,
+li,
+label,
+td,
+th,
+div {
+    color: var(--text-dark);
+}
+
+.bg-marine {
+    background-color: var(--primary-ocean) !important;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--sunny-gold) !important;
+}
+
+#main-header {
+    background-color: var(--primary-ocean) !important;
+    background-image:
+        linear-gradient(
+            180deg,
+            rgba(13, 59, 102, 0.85) 0%,
+            rgba(0, 168, 150, 0.75) 100%
+        ),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80') !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#main-header h1,
+#main-header h2,
+#main-header h3,
+#main-header p,
+#main-header span {
+    color: #ffffff !important;
+}
+
+.table {
+    background-color: #ffffff !important;
+    color: var(--text-dark) !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead,
+.table thead tr,
+.table thead th {
+    background-color: var(--primary-ocean) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.table tbody,
+.table tbody tr,
+.table tbody td {
+    background-color: #ffffff !important;
+    color: var(--text-dark) !important;
+}
+
+.table-hover tbody tr:hover,
+.table-hover tbody tr:hover td {
+    background-color: #eef9f8 !important;
+    color: var(--text-dark) !important;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    background-color: #ffffff !important;
+    color: var(--text-dark) !important;
+    box-shadow: 0 8px 20px rgba(13, 59, 102, 0.06);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(13, 59, 102, 0.12);
+}
+
+.card-title {
+    color: var(--primary-ocean) !important;
+}
+
+.card-text {
+    color: #334155 !important;
+}
+
+.card p,
+.card span,
+.card li {
+    color: var(--text-dark) !important;
+}
+
+.bg-light-blue {
+    background-color: #eef9f8 !important;
+    border: 2px solid #b8e8e3 !important;
+}
+
+.btn-marine {
+    background-color: var(--teal-sea) !important;
+    color: #ffffff !important;
+    border: none !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.btn-marine:hover {
+    background-color: var(--coral-accent) !important;
+    color: #ffffff !important;
+}
+
+.btn-light {
+    background-color: #ffffff !important;
+    color: var(--primary-ocean) !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.form-control,
+.form-select {
+    background-color: #ffffff !important;
+    color: var(--text-dark) !important;
+    border: 2px solid #cbd5e1 !important;
+    border-radius: 12px;
+}
+
+.form-control::placeholder {
+    color: #64748b !important;
+    opacity: 1;
+}
+
+.form-label {
+    color: var(--primary-ocean) !important;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--primary-ocean) !important;
+    color: #ffffff !important;
+    padding: 20px 0;
+}
+
+footer p,
+footer span,
+footer li,
+footer a {
+    color: #ffffff !important;
+}

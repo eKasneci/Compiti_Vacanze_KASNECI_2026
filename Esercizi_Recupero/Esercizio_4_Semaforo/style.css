@@ -1,0 +1,30 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.semaforo {
+    background-color: #222;
+    width: 130px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.luce {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 10px auto;
+}
+
+#rosso.acceso {
+    background-color: red;
+}
+
+#giallo.acceso {
+    background-color: yellow;
+}
+
+#verde.acceso {
+    background-color: green;
+}

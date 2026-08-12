@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#griglia {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cella {
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.cella.cliccata {
+    background-color: #00a896;
+    cursor: default;
+}
